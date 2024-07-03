@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto teste 05</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/mediaquery.css">
 </head>
@@ -20,21 +21,27 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
 
                 <form action="cadastro.php" method="post" autocomplete="on">
+                    
                     <div class="campo">
-                        <span class="material-symbols-outlined">mail</span>
+                         <label for="iemail"><span class="material-symbols-outlined">account_circle</span></label>
                         <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required>
-                        <label for="iemail">Login</label>
+                       
 
                     </div>
 
                     <div class="campo">
-                        <span class="material-symbols-outlined">key</span>
+                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
                         <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" required>
-                        <label for="isenha">Senha</label>
+                        
 
                     </div>
+                    
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Esqueci a senha</a>
+                    <a href="esqueci.html">Esqueci a senha
+                        <span class="material-symbols-outlined">
+                            mail
+                         </span>
+                    </a>
 
                 </form>
 
